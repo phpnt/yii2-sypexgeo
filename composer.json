@@ -1,0 +1,28 @@
+{
+    "name": "phpnt/yii2-sypexgeo",
+    "description": "Yii2 Sypexgeo",
+    "keywords": ["yii2", "phpnt", "sypexgeo", "geo", "timezone"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "support": {
+        "source": "https://github.com/phpnt/yii2-sypexgeo"
+    },
+    "authors": [
+        {
+            "name": "phpNT",
+            "email": "phpnt@phpnt.com",
+            "homepage": "http://phpnt.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "jisoft/yii2-sypexgeo": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpnt\\geoData\\": ""
+        }
+    }
+}
